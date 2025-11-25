@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(flutter create:*)",
+      "Bash(fvm flutter:*)",
+      "Bash(cargo check:*)",
+      "Bash(curl:*)",
+      "Bash(unzip:*)",
+      "Bash(~/.zshrc)",
+      "Bash(export PATH=\"$HOME/Development/flutter/bin:$PATH\")",
+      "Bash(flutter --version:*)",
+      "Bash(flutter doctor:*)",
+      "Bash(flutter config:*)",
+      "Bash(flutter devices:*)",
+      "Bash(yes:*)",
+      "Bash(printf:*)",
+      "Bash(~/Development/flutter/bin/flutter doctor:*)",
+      "Bash(~/Development/flutter/bin/flutter create:*)",
+      "Bash(~/Development/flutter/bin/flutter pub:*)",
+      "Bash(~/Development/flutter/bin/flutter devices:*)",
+      "Bash(open -a Simulator)",
+      "Bash(xcrun simctl list:*)",
+      "Bash(~/Development/flutter/bin/flutter run:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

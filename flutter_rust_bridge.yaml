@@ -1,0 +1,22 @@
+# flutter_rust_bridge 配置文件
+# 用于自动生成 Flutter <-> Rust 绑定代码
+
+rust_input:
+  - crate: rust_core
+    # Rust 源文件路径
+    rust_root: rust_core/
+
+# Dart 输出路径
+dart_output:
+  path: flutter_app/lib/src/rust/
+
+# 可选：完整配置
+full_dep: true
+
+# C 头文件输出（用于 FFI）
+c_output:
+  path: flutter_app/
+
+# 默认外部类型处理
+default_external_library_loaders:
+  crate::api: flutter_app/lib/src/rust/frb_generated.io.dart
