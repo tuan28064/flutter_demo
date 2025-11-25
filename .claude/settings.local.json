@@ -23,7 +23,9 @@
       "Bash(xcrun simctl list:*)",
       "Bash(~/Development/flutter/bin/flutter run:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
